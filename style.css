@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/* Center name */
+.header {
+  text-align: center;
+  max-width: fit-content;
+  margin-inline: auto;
+}
+
+.header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.header h2 {
+
+}
+
+.socials {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.icon{
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.socials li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  text-align: center;
+  max-width: fit-content;
+  margin-inline: auto;
+  background-color: #dddddd;
+  padding: 8px;
+}
+
+.navbar li{
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+}
+
+.navbar a:visited{
+  color: #000000;
+}
+
+.pfp {
+  text-align: center;
+  max-width: fit-content;
+  margin-inline: auto;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pfp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
