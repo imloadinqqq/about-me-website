@@ -4,7 +4,8 @@
         <title>Home</title>
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-    <body>
+    <body onload="startTime()">
+		<div id="txt"></div>
         <div class="socials">
             <li><a href="https://discord.com/users/308089208634081280" target="_blank">
                 <img class="icon" src="./public/discord-mark-black.png" alt="discord"></a></li>
@@ -30,9 +31,14 @@
             <li><a href="./pages/projects.html">Projects</a></li>
             <li><a href="./pages/blog.html">Blog</a></li>
         </div>
+		<div>
+			<button type="button" onclick="showMessage();">Click for hidden message</button>
+		</div>
     </body>
     <footer>
         <img src="./public/tails.gif" alt="tails" height="100px" width="100px">
         <p>Tails says hi! :D</p>
     </footer>
+
+    <script src="script.js"></script>
 </html>
